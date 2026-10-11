@@ -1,0 +1,486 @@
+{
+ "structured": {
+  "success": true,
+  "code": 200,
+  "message": "请求成功",
+  "datetime": "2026-10-11 15:22:37",
+  "traceId": "demo-traceid-masked",
+  "data": {
+   "coupons": [
+    {
+     "id": "264B97DBE02BE6CF996AA6914151C4A9",
+     "code": "MCD608********（已脱敏）",
+     "title": "9.9元中杯冰美式",
+     "subtitle": "",
+     "showType": 100,
+     "image": "https://mcd-portal-prod-cos1-1300270282.cos.ap-shanghai.myqcloud.com/campaign/prod/campaign-offer/coupon/66a5597fe23246e698d9d63be003a951/9.9%E5%86%B0%E7%BE%8E%E5%BC%8F%E5%88%B8%E5%9B%BE600X600_compressed.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDCD6mEcX25tVrjNxiPvEICas0uXyBKIBs%26q-sign-time%3D1752487443%3B1910167443%26q-key-time%3D1752487443%3B1910167443%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3Dbb50244da928a73c75aa906a93bdb2264ebace1d",
+     "bigImage": "https://mcd-portal-prod-cos1-1300270282.cos.ap-shanghai.myqcloud.com/campaign/prod/campaign-offer/coupon/50c90755aa8e467dbf338b6d3d0a9f48/%E4%BC%98%E6%83%A0%E5%88%B8%E5%A4%A7%E5%8D%A1%E7%89%87%E5%9B%BE_1035%C3%97516px_1Mb.jpg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDCD6mEcX25tVrjNxiPvEICas0uXyBKIBs%26q-sign-time%3D1752487437%3B1910167437%26q-key-time%3D1752487437%3B1910167437%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3Dfe8365bde603c3dae13d221dd3adc8858aba082b",
+     "instructions": {
+      "labels": [],
+      "availableTime": [
+       {
+        "text": "2026.10.11-2026.10.17",
+        "color": "#222222",
+        "type": 1
+       }
+      ]
+     },
+     "discountInfo": {
+      "discountValue": "9.9",
+      "discountDesc": "用券价格",
+      "discountTypePosition": 1,
+      "discountTypeText": "¥"
+     },
+     "tradeStartDate": "2026-10-11",
+     "tradeEndDate": "2026-10-17",
+     "tradeStartDateTime": "2026-10-11 00:00:00",
+     "tradeEndDateTime": "2026-10-17 23:59:59",
+     "weekdays": [],
+     "isAllTradeTime": 1,
+     "tradeTimePeriods": [],
+     "totalCount": 1,
+     "totalAvailableCount": 1,
+     "currentDayAvailableCount": 1,
+     "orderType": 1,
+     "orderTypes": [
+      1,
+      2
+     ],
+     "tags": [
+      {
+       "type": 2,
+       "value": "pickup",
+       "label": "到店专用",
+       "color": "#FFBC0D"
+      },
+      {
+       "type": 2,
+       "value": "delivery",
+       "label": "外送专用",
+       "color": "#FFBC0D"
+      }
+     ],
+     "enable": 1,
+     "filterValues": [],
+     "beType": 1,
+     "beTypes": [
+      1,
+      2,
+      3,
+      5
+     ],
+     "promotionId": "112023002",
+     "couponCardType": 0,
+     "mpCouponType": 0,
+     "isPrepaid": 0,
+     "couponPromotionType": 1,
+     "promotionChildrenType": 11,
+     "channels": [
+      "03",
+      "14",
+      "45",
+      "54"
+     ],
+     "isCanGive": 1,
+     "reducePrice": "",
+     "reducePriceText": "",
+     "paymentType": 0,
+     "paymentTypeForSort": 0,
+     "appliedCategory": 1,
+     "ifFreeCoupon": false,
+     "receiveTime": "2026-10-11 15:22:36",
+     "isGiveAway": 0,
+     "shareThemeId": 8,
+     "supportReservation": 0,
+     "supportSoldOut": 0,
+     "jumpUseScenes": [
+      "01"
+     ],
+     "fulfillment": 0,
+     "currentChannelCanRedeem": false,
+     "onlyAppCanRedeem": false,
+     "onlyPosCanRedeem": false,
+     "channelIconUrls": [],
+     "receivedDays": 0,
+     "receivedDaysMsg": "今日收到",
+     "btnText": "查看券详情",
+     "datetimeText": "2026-10-11 00:00-2026-10-17 23:59",
+     "bindButtonGif": "https://img.mcd.cn/gallery/5d752bcfd9dbf164.webp",
+     "toastText": "该券仅限麦当劳App使用",
+     "multipleProducts": false
+    },
+    {
+     "id": "34FB62B28F5D64F2F29BF1D33A92E9DD",
+     "code": "MCD6G1********（已脱敏）",
+     "title": "人气麦旋风买一送一",
+     "subtitle": "",
+     "showType": 100,
+     "image": "https://mcd-portal-prod-cos1-1300270282.cos.ap-shanghai.myqcloud.com/campaign/prod/campaign-offer/coupon/06da6d644ddb4e6282bba9893f5afe0d/600x600.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDCD6mEcX25tVrjNxiPvEICas0uXyBKIBs%26q-sign-time%3D1790568983%3B1948248983%26q-key-time%3D1790568983%3B1948248983%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D5a1d410a1bc55056a1021e94cbeebc2c6920472f",
+     "bigImage": "https://mcd-portal-prod-cos1-1300270282.cos.ap-shanghai.myqcloud.com/campaign/prod/campaign-offer/coupon/aea122e7bf1a432db9c2819fd4d16731/%E6%9F%A0%E6%AA%AC%E7%9B%90%E6%B3%B7%E4%BB%BB%E9%80%89%E4%B8%80.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDCD6mEcX25tVrjNxiPvEICas0uXyBKIBs%26q-sign-time%3D1790568933%3B1948248933%26q-key-time%3D1790568933%3B1948248933%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3Df69f52d797647e6937bfb3e186af73150a003b46",
+     "instructions": {
+      "labels": [
+       {
+        "text": "到店",
+        "color": "#222222",
+        "code": 0
+       }
+      ],
+      "availableTime": [
+       {
+        "text": "今日",
+        "color": "#DB0007",
+        "type": 2
+       },
+       {
+        "text": "22:00",
+        "color": "#DB0007",
+        "type": 1
+       },
+       {
+        "text": "到期",
+        "color": "#DB0007",
+        "type": 2
+       }
+      ]
+     },
+     "discountInfo": {
+      "discountValue": "15",
+      "discountDesc": "用券价格",
+      "discountTypePosition": 1,
+      "discountTypeText": "¥"
+     },
+     "tradeStartDate": "2026-10-05",
+     "tradeEndDate": "2026-10-11",
+     "tradeStartDateTime": "2026-10-05 00:00:00",
+     "tradeEndDateTime": "2026-10-11 23:59:59",
+     "weekdays": [],
+     "isAllTradeTime": 0,
+     "tradeTimePeriods": [
+      {
+       "startTime": "10:00:00",
+       "endTime": "22:00:00"
+      }
+     ],
+     "totalCount": 1,
+     "totalAvailableCount": 1,
+     "currentDayAvailableCount": 1,
+     "orderType": 1,
+     "orderTypes": [
+      1
+     ],
+     "tags": [
+      {
+       "type": 3,
+       "value": "due today",
+       "label": "今日到期",
+       "color": "#FFBC0D"
+      },
+      {
+       "type": 2,
+       "value": "pickup",
+       "label": "到店专用",
+       "color": "#FFBC0D"
+      }
+     ],
+     "enable": 1,
+     "filterValues": [],
+     "beType": 4,
+     "beTypes": [
+      4
+     ],
+     "promotionId": "112464008",
+     "couponCardType": 0,
+     "mpCouponType": 0,
+     "isPrepaid": 0,
+     "couponPromotionType": 1,
+     "promotionChildrenType": 11,
+     "channels": [
+      "03",
+      "45",
+      "54"
+     ],
+     "isCanGive": 1,
+     "reducePrice": "",
+     "reducePriceText": "",
+     "paymentType": 0,
+     "paymentTypeForSort": 0,
+     "appliedCategory": 0,
+     "ifFreeCoupon": false,
+     "receiveTime": "2026-10-11 15:22:36",
+     "isGiveAway": 0,
+     "shareThemeId": 8,
+     "supportReservation": 0,
+     "supportSoldOut": 0,
+     "jumpUseScenes": [
+      "01"
+     ],
+     "fulfillment": 0,
+     "currentChannelCanRedeem": false,
+     "onlyAppCanRedeem": false,
+     "onlyPosCanRedeem": false,
+     "channelIconUrls": [],
+     "receivedDays": 0,
+     "receivedDaysMsg": "今日收到",
+     "btnText": "查看券详情",
+     "datetimeText": "2026-10-05 00:00-2026-10-11 23:59 10:00-22:00",
+     "bindButtonGif": "https://img.mcd.cn/gallery/5d752bcfd9dbf164.webp",
+     "toastText": "该券仅限麦当劳App使用",
+     "multipleProducts": false
+    },
+    {
+     "id": "7390AF213CDB886D86C7A4785237A4B7",
+     "code": "MCD680********（已脱敏）",
+     "title": "巧克力味厚松饼猪柳蛋套餐",
+     "subtitle": "",
+     "showType": 100,
+     "image": "https://mcd-portal-prod-cos1-1300270282.cos.ap-shanghai.myqcloud.com/campaign/prod/campaign-offer/coupon/2f12e1f483a349c2b1b63d0312f25988/%E5%B7%A7%E5%85%8B%E5%8A%9B%E5%91%B3%E5%8E%9A%E6%9D%BE%E9%A5%BC%E7%8C%AA%E6%9F%B3%E8%9B%8B%E5%A0%A1%E4%B8%89%E4%BB%B6%E5%A5%97-%E5%B0%8F%E6%9D%AF-%E6%97%A9%E9%A4%90%E7%89%88.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDCD6mEcX25tVrjNxiPvEICas0uXyBKIBs%26q-sign-time%3D1789975971%3B1947655971%26q-key-time%3D1789975971%3B1947655971%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3Dc5844e6b5753c4fbdb1ce9c3f62ccf4075ab0003",
+     "bigImage": "https://mcd-portal-prod-cos1-1300270282.cos.ap-shanghai.myqcloud.com/campaign/prod/campaign-offer/coupon/9eafb9c904a74408892ef36eb7c0665d/%E5%88%B8%E5%9B%BE_512x1035px-3.jpg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDCD6mEcX25tVrjNxiPvEICas0uXyBKIBs%26q-sign-time%3D1789975963%3B1947655963%26q-key-time%3D1789975963%3B1947655963%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3Db06fd8e804c8a0f6463c0be39194e9acd75822c7",
+     "instructions": {
+      "labels": [
+       {
+        "text": "未到使用时间",
+        "color": "#666666",
+        "code": 2
+       },
+       {
+        "text": "到店",
+        "color": "#666666",
+        "code": 0
+       }
+      ],
+      "availableTime": [
+       {
+        "text": "2026.10.17-2026.10.17",
+        "color": "#666666",
+        "type": 1
+       },
+       {
+        "text": "周六",
+        "color": "#666666",
+        "type": 2
+       },
+       {
+        "text": "05:00-10:29",
+        "color": "#666666",
+        "type": 1
+       }
+      ]
+     },
+     "discountInfo": {
+      "discountValue": "29.9",
+      "discountDesc": "用券价格",
+      "discountTypePosition": 1,
+      "discountTypeText": "¥"
+     },
+     "tradeStartDate": "2026-10-17",
+     "tradeEndDate": "2026-10-17",
+     "tradeStartDateTime": "2026-10-17 05:00:00",
+     "tradeEndDateTime": "2026-10-17 10:29:59",
+     "weekdays": [
+      7
+     ],
+     "isAllTradeTime": 0,
+     "tradeTimePeriods": [
+      {
+       "startTime": "05:00:00",
+       "endTime": "10:29:59"
+      }
+     ],
+     "totalCount": 1,
+     "totalAvailableCount": 1,
+     "currentDayAvailableCount": 0,
+     "orderType": 1,
+     "orderTypes": [
+      1
+     ],
+     "tags": [
+      {
+       "type": 2,
+       "value": "pickup",
+       "label": "到店专用",
+       "color": "#FFBC0D"
+      }
+     ],
+     "enable": 0,
+     "filterValues": [],
+     "beType": 1,
+     "beTypes": [
+      1,
+      5
+     ],
+     "promotionId": "112458018",
+     "couponCardType": 0,
+     "mpCouponType": 0,
+     "isPrepaid": 0,
+     "couponPromotionType": 1,
+     "promotionChildrenType": 11,
+     "channels": [
+      "03",
+      "45",
+      "14",
+      "54"
+     ],
+     "isCanGive": 1,
+     "reducePrice": "",
+     "reducePriceText": "",
+     "paymentType": 0,
+     "paymentTypeForSort": 0,
+     "appliedCategory": 0,
+     "ifFreeCoupon": false,
+     "receiveTime": "2026-10-11 15:22:36",
+     "isGiveAway": 0,
+     "shareThemeId": 8,
+     "supportReservation": 0,
+     "supportSoldOut": 0,
+     "unavailableType": 1,
+     "jumpUseScenes": [
+      "01"
+     ],
+     "fulfillment": 0,
+     "currentChannelCanRedeem": false,
+     "onlyAppCanRedeem": false,
+     "onlyPosCanRedeem": false,
+     "channelIconUrls": [],
+     "receivedDays": 0,
+     "receivedDaysMsg": "今日收到",
+     "btnText": "查看券详情",
+     "datetimeText": "2026-10-17 05:00-2026-10-17 10:29 周六 05:00-10:29",
+     "bindButtonGif": "https://img.mcd.cn/gallery/5d752bcfd9dbf164.webp",
+     "toastText": "该券仅限麦当劳App使用",
+     "disableBtnText": "当前渠道不可用",
+     "multipleProducts": false
+    },
+    {
+     "id": "B34BB3A364F39940475B7BA80D19310A",
+     "code": "MCD669********（已脱敏）",
+     "title": "巧克力味厚松饼猪柳蛋套餐",
+     "subtitle": "",
+     "showType": 100,
+     "image": "https://mcd-portal-prod-cos1-1300270282.cos.ap-shanghai.myqcloud.com/campaign/prod/campaign-offer/coupon/c4ec5eb9620b4093b41dfb08801bb165/%E5%B7%A7%E5%85%8B%E5%8A%9B%E5%91%B3%E5%8E%9A%E6%9D%BE%E9%A5%BC%E7%8C%AA%E6%9F%B3%E8%9B%8B%E5%A0%A1%E4%B8%89%E4%BB%B6%E5%A5%97-%E5%B0%8F%E6%9D%AF-%E6%97%A9%E9%A4%90%E7%89%88.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDCD6mEcX25tVrjNxiPvEICas0uXyBKIBs%26q-sign-time%3D1789975984%3B1947655984%26q-key-time%3D1789975984%3B1947655984%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D2dc8e71bda675d252f8e91b7e4f464571f1d96a4",
+     "bigImage": "https://mcd-portal-prod-cos1-1300270282.cos.ap-shanghai.myqcloud.com/campaign/prod/campaign-offer/coupon/e4926eb94c06486a80edb431eeac9652/%E5%88%B8%E5%9B%BE_512x1035px-4.jpg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDCD6mEcX25tVrjNxiPvEICas0uXyBKIBs%26q-sign-time%3D1789975994%3B1947655994%26q-key-time%3D1789975994%3B1947655994%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3Dc327130e14cd3bed47451dd9975303be3ed6d0da",
+     "instructions": {
+      "labels": [
+       {
+        "text": "未到使用时间",
+        "color": "#666666",
+        "code": 2
+       },
+       {
+        "text": "到店",
+        "color": "#666666",
+        "code": 0
+       }
+      ],
+      "availableTime": [
+       {
+        "text": "2026.10.18-2026.10.18",
+        "color": "#666666",
+        "type": 1
+       },
+       {
+        "text": "周日",
+        "color": "#666666",
+        "type": 2
+       },
+       {
+        "text": "05:00-10:29",
+        "color": "#666666",
+        "type": 1
+       }
+      ]
+     },
+     "discountInfo": {
+      "discountValue": "29.9",
+      "discountDesc": "用券价格",
+      "discountTypePosition": 1,
+      "discountTypeText": "¥"
+     },
+     "tradeStartDate": "2026-10-18",
+     "tradeEndDate": "2026-10-18",
+     "tradeStartDateTime": "2026-10-18 05:00:00",
+     "tradeEndDateTime": "2026-10-18 10:29:59",
+     "weekdays": [
+      1
+     ],
+     "isAllTradeTime": 0,
+     "tradeTimePeriods": [
+      {
+       "startTime": "05:00:00",
+       "endTime": "10:29:59"
+      }
+     ],
+     "totalCount": 1,
+     "totalAvailableCount": 1,
+     "currentDayAvailableCount": 0,
+     "orderType": 1,
+     "orderTypes": [
+      1
+     ],
+     "tags": [
+      {
+       "type": 2,
+       "value": "pickup",
+       "label": "到店专用",
+       "color": "#FFBC0D"
+      }
+     ],
+     "enable": 0,
+     "filterValues": [],
+     "beType": 1,
+     "beTypes": [
+      1,
+      5
+     ],
+     "promotionId": "112458019",
+     "couponCardType": 0,
+     "mpCouponType": 0,
+     "isPrepaid": 0,
+     "couponPromotionType": 1,
+     "promotionChildrenType": 11,
+     "channels": [
+      "03",
+      "45",
+      "14",
+      "54"
+     ],
+     "isCanGive": 1,
+     "reducePrice": "",
+     "reducePriceText": "",
+     "paymentType": 0,
+     "paymentTypeForSort": 0,
+     "appliedCategory": 0,
+     "ifFreeCoupon": false,
+     "receiveTime": "2026-10-11 15:22:36",
+     "isGiveAway": 0,
+     "shareThemeId": 8,
+     "supportReservation": 0,
+     "supportSoldOut": 0,
+     "unavailableType": 1,
+     "jumpUseScenes": [
+      "01"
+     ],
+     "fulfillment": 0,
+     "currentChannelCanRedeem": false,
+     "onlyAppCanRedeem": false,
+     "onlyPosCanRedeem": false,
+     "channelIconUrls": [],
+     "receivedDays": 0,
+     "receivedDaysMsg": "今日收到",
+     "btnText": "查看券详情",
+     "datetimeText": "2026-10-18 05:00-2026-10-18 10:29 周日 05:00-10:29",
+     "bindButtonGif": "https://img.mcd.cn/gallery/5d752bcfd9dbf164.webp",
+     "toastText": "该券仅限麦当劳App使用",
+     "disableBtnText": "当前渠道不可用",
+     "multipleProducts": false
+    }
+   ],
+   "totalCount": 4,
+   "currentPage": 1,
+   "pageSize": 20,
+   "totalPages": 1
+  }
+ },
+ "texts": [
+  "# 您的优惠券列表\n\n共 4 张可用优惠券 | 第 1/1 页 | 每页 20 条\n\n## 9.9元中杯冰美式\n- **优惠**: ¥9.9 (用券价格)\n- **有效期**: 2026-10-11 00:00-2026-10-17 23:59\n- **领取时间**: 今日收到\n- **标签**: 到店专用、外送专用\n\n<img src=\"https://mcd-portal-prod-cos1-1300270282.cos.ap-shanghai.myqcloud.com/campaign/prod/campaign-offer/coupon/50c90755aa8e467dbf338b6d3d0a9f48/%E4%BC%98%E6%83%A0%E5%88%B8%E5%A4%A7%E5%8D%A1%E7%89%87%E5%9B%BE_1035%C3%97516px_1Mb.jpg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDCD6mEcX25tVrjNxiPvEICas0uXyBKIBs%26q-sign-time%3D1752487437%3B1910167437%26q-key-time%3D1752487437%3B1910167437%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3Dfe8365bde603c3dae13d221dd3adc8858aba082b\" alt=\"9.9元中杯冰美式\" height=\"auto\" width=\"300\">\n\n\n## 人气麦旋风买一送一\n- **优惠**: ¥15 (用券价格)\n- **有效期**: 2026-10-05 00:00-2026-10-11 23:59 10:00-22:00\n- **领取时间**: 今日收到\n- **标签**: 今日到期、到店专用\n\n<img src=\"https://mcd-portal-prod-cos1-1300270282.cos.ap-shanghai.myqcloud.com/campaign/prod/campaign-offer/coupon/aea122e7bf1a432db9c2819fd4d16731/%E6%9F%A0%E6%AA%AC%E7%9B%90%E6%B3%B7%E4%BB%BB%E9%80%89%E4%B8%80.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDCD6mEcX25tVrjNxiPvEICas0uXyBKIBs%26q-sign-time%3D1790568933%3B1948248933%26q-key-time%3D1790568933%3B1948248933%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3Df69f52d797647e6937bfb3e186af73150a003b46\" alt=\"人气麦旋风买一送一\" height=\"auto\" width=\"300\">\n\n\n## 巧克力味厚松饼猪柳蛋套餐\n- **优惠**: ¥29.9 (用券价格)\n- **有效期**: 2026-10-17 05:00-2026-10-17 10:29 周六 05:00-10:29\n- **领取时间**: 今日收到\n- **标签**: 到店专用\n\n<img src=\"https://mcd-portal-prod-cos1-1300270282.cos.ap-shanghai.myqcloud.com/campaign/prod/campaign-offer/coupon/9eafb9c904a74408892ef36eb7c0665d/%E5%88%B8%E5%9B%BE_512x1035px-3.jpg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDCD6mEcX25tVrjNxiPvEICas0uXyBKIBs%26q-sign-time%3D1789975963%3B1947655963%26q-key-time%3D1789975963%3B1947655963%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3Db06fd8e804c8a0f6463c0be39194e9acd75822c7\" alt=\"巧克力味厚松饼猪柳蛋套餐\" height=\"auto\" width=\"300\">\n\n\n## 巧克力味厚松饼猪柳蛋套餐\n- **优惠**: ¥29.9 (用券价格)\n- **有效期**: 2026-10-18 05:00-2026-10-18 10:29 周日 05:00-10:29\n- **领取时间**: 今日收到\n- **标签**: 到店专用\n\n<img src=\"https://mcd-portal-prod-cos1-1300270282.cos.ap-shanghai.myqcloud.com/campaign/prod/campaign-offer/coupon/e4926eb94c06486a80edb431eeac9652/%E5%88%B8%E5%9B%BE_512x1035px-4.jpg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDCD6mEcX25tVrjNxiPvEICas0uXyBKIBs%26q-sign-time%3D1789975994%3B1947655994%26q-key-time%3D1789975994%3B1947655994%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3Dc327130e14cd3bed47451dd9975303be3ed6d0da\" alt=\"巧克力味厚松饼猪柳蛋套餐\" height=\"auto\" width=\"300\">\n\n\n\n"
+ ]
+}

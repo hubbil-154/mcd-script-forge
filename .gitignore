@@ -1,0 +1,15 @@
+# 本地私有配置（绝不提交）
+.env
+*token*
+!mcp-tools.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# WorkBuddy 会话产物
+.workbuddy/
+
+# 真实抓取数据（含个人位置/券码，进仓库前必须脱敏）
+# 仓库内的 mcp-data/*.json 已脱敏，仅作格式示例

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>麦门口播脚本工坊 · 风格样片 | mcd-script-forge</title>
+<meta name="description" content="麦当劳中国官方 MCP 数据一键生成短视频口播三件套。两条风格样片：新粗犷主义 / 瑞士国际主义，均基于真实计价数据渲染。">
+<link rel="icon" href="data:,">
+<style>
+  :root {
+    --bg: #14100e;
+    --panel: #1e1815;
+    --line: #372c26;
+    --ink: #f5efe8;
+    --muted: #b3a79b;
+    --red: #e30613;
+    --gold: #ffbc0d;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 1060px; margin: 0 auto; padding: 0 24px; }
+  header { padding: 72px 0 40px; border-bottom: 1px solid var(--line); }
+  .kicker {
+    display: inline-block;
+    font-size: 13px; letter-spacing: .18em;
+    color: var(--gold);
+    border: 1px solid var(--gold);
+    padding: 4px 14px; border-radius: 999px;
+    margin-bottom: 22px;
+  }
+  h1 { font-size: clamp(30px, 5vw, 48px); line-height: 1.2; letter-spacing: .01em; }
+  h1 .accent { color: var(--red); }
+  .sub { margin-top: 14px; color: var(--muted); font-size: 17px; max-width: 640px; }
+  .price-chip {
+    margin-top: 18px; display: inline-flex; gap: 10px; align-items: baseline;
+    background: var(--panel); border: 1px solid var(--line);
+    padding: 10px 18px; border-radius: 12px; font-size: 14px;
+  }
+  .price-chip b { color: var(--gold); font-size: 20px; }
+  .price-chip s { color: var(--muted); }
+  main { padding: 48px 0 24px; }
+  h2 { font-size: 22px; margin-bottom: 6px; }
+  .hint { color: var(--muted); font-size: 14px; margin-bottom: 26px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--line);
+    border-radius: 18px; overflow: hidden;
+    transition: transform .25s ease, border-color .25s ease;
+  }
+  .card:hover { transform: translateY(-4px); border-color: #5a463a; }
+  .frame { position: relative; aspect-ratio: 9 / 16; background: #000; cursor: pointer; }
+  .frame video { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .play {
+    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    pointer-events: none; transition: opacity .25s ease;
+  }
+  .frame.playing .play { opacity: 0; }
+  .play span {
+    width: 68px; height: 68px; border-radius: 50%;
+    background: rgba(227, 6, 19, .92);
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 8px 28px rgba(0,0,0,.5);
+  }
+  .play svg { width: 26px; height: 26px; fill: #fff; margin-left: 4px; }
+  .meta { padding: 18px 20px 22px; }
+  .style-cn { font-size: 19px; font-weight: 700; }
+  .style-en { color: var(--gold); font-size: 13px; letter-spacing: .08em; margin-top: 2px; }
+  .feat { color: var(--muted); font-size: 14px; margin-top: 10px; }
+  footer { border-top: 1px solid var(--line); margin-top: 48px; padding: 34px 0 56px; color: var(--muted); font-size: 14px; }
+  footer a { color: var(--gold); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  footer ul { list-style: none; margin-top: 10px; }
+  footer li { margin-top: 6px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <span class="kicker">WORKBUDDY × 麦当劳中国 · 1024 程序员节创意开发大赛</span>
+    <h1>麦门口播脚本工坊<br><span class="accent">风格样片</span></h1>
+    <p class="sub">mcd-script-forge 把麦当劳官方 MCP 的真实菜单、券池与计价数据，一键变成可直接开拍的口播脚本 + 分镜表 + SRT 字幕。以下两条样片由同一份真实计价数据渲染，展示 PROMPT-v1 风格契约的两种方向。</p>
+    <span class="price-chip">样片数据 · 麦咖啡™冰美式中杯&nbsp; <s>原价 ¥19</s> → 券后 <b>¥9.9</b>（MCP 真实计价，立省 ¥9.1）</span>
+  </div>
+</header>
+
+<main class="wrap">
+  <h2>两种风格 · 同一份数据</h2>
+  <p class="hint">点击画面播放（带声音）。1080×1920 竖版 · 15s · Canvas 2D 确定性渲染。</p>
+  <div class="grid">
+    <div class="card">
+      <div class="frame" data-film>
+        <video preload="none" poster="samples/poster-nb.jpg" src="samples/style-nb.mp4" playsinline></video>
+        <div class="play"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></div>
+      </div>
+      <div class="meta">
+        <div class="style-cn">新粗犷主义</div>
+        <div class="style-en">NEO-BRUTALISM</div>
+        <div class="feat">硬偏移阴影 · 粗黑描边 · 砸感入场</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="frame" data-film>
+        <video preload="none" poster="samples/poster-sw.jpg" src="samples/style-sw.mp4" playsinline></video>
+        <div class="play"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></div>
+      </div>
+      <div class="meta">
+        <div class="style-cn">瑞士国际主义</div>
+        <div class="style-en">SWISS INTERNATIONAL</div>
+        <div class="feat">严格网格 · 超大字号 · 零过冲动效</div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>mcd-script-forge · MIT License · 🤖 全程使用 WorkBuddy 辅助开发</div>
+    <ul>
+      <li>📄 项目介绍与快速开始 → <a href="https://github.com/hubbil-154/mcd-script-forge#readme">README</a></li>
+      <li>🎨 风格契约（原创提示词） → <a href="https://github.com/hubbil-154/mcd-script-forge/blob/main/prompts/PROMPT-v1.md">prompts/PROMPT-v1.md</a></li>
+      <li>🔌 麦当劳 MCP 接入实测 → <a href="https://github.com/hubbil-154/mcd-script-forge/blob/main/MCP_INTEGRATION.md">MCP_INTEGRATION.md</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('[data-film]').forEach(function (frame) {
+    var v = frame.querySelector('video');
+    frame.addEventListener('click', function () {
+      if (v.paused) {
+        document.querySelectorAll('video').forEach(function (o) {
+          if (o !== v) { o.pause(); o.closest('[data-film]').classList.remove('playing'); }
+        });
+        v.play();
+        frame.classList.add('playing');
+      } else {
+        v.pause();
+        frame.classList.remove('playing');
+      }
+    });
+    v.addEventListener('ended', function () { frame.classList.remove('playing'); });
+  });
+</script>
+</body>
+</html>
